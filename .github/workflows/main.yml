@@ -1,0 +1,8 @@
+name: Github Actions
+on: workflow_dispatch
+jobs:
+  Testing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Testing Workflow
+        run: echo "Hell yeah!!!!!!!!!Workflow works"
